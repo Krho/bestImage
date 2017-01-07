@@ -66,5 +66,3 @@ def best_image(category):
             best_image = image
     return best_image["name"]
 
-print "best image"
-print best_image("Musée Saint-Raymond, Ra 73e").encode("utf8")
