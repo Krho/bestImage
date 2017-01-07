@@ -40,7 +40,7 @@ def compare_criteria(criteria1, criteria2):
 def xor(bool1, bool2):
     return (bool1 and not bool2) or (bool2 and not bool1)
 
-def make_media(img):
+def collect_info(img):
     image = {}
     image["name"] = img.page_title
     cats = [cat for cat in img.categories()]
@@ -53,18 +53,18 @@ def make_media(img):
         image["quality"] = image["quality"] or cat.name == COMMONS_QI_CATEGORY
     return image
 
-def best_imgage(category):
+def best_image(category):
     # Initiatization
-    images = [img for img in SITE.Categories[category] if img.namespace==FILE_NAMESPACE]
-    best_image = images[0]
+    images = [collect_info(img) for img in SITE.Categories[category.decode("utf8")] if img.namespace==FILE_NAMESPACE]
     best_criteria = compute_criteria(images[0])
+    best_image = images[0]
     # Finding the best
     for image in images:
         current_criteria = compute_criteria(image)
         if compare_criteria(best_criteria, current_criteria):
             best_criteria = current_criteria
             best_image = image
-    return best_image
+    return best_image["name"]
 
 print "best image"
-print best_image("Musée Saint-Raymond, Ra 73e")
+print best_image("Musée Saint-Raymond, Ra 73e").encode("utf8")
