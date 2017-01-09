@@ -6,7 +6,7 @@ def hello():
    return "Finding the best image of a Commons category"
 
 @app.route('/category/<category>')
-def show_user_profile(username):
+def show_category(category):
     # show the user profile for that user
     return 'Best image of %s' % category
 
