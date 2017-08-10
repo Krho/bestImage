@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block content %}
+  <h1>visual-categories</h1>
+  <p class='lead'>Welcome to visual Categories - visualisation of Commons subcategories</p>
+
+    <form action="/login" enctype="multipart/form-data">
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">Category:</span>
+                <input type="text" class="form-control" id="category" name="category" placeholder="Sunflowers (van Gogh)" />
+            </div>
+  <!--          <div class="input-group">
+                <span class="input-group-addon">Login:</span>
+                <input type="text" class="form-control" id="user" name="user" placeholder="Petit Tigre">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Password:</span>
+                <input type="text" class="form-control" id="password" name="password" placeholder="********" />
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Test ?</span>
+                <input type="radio" name="test" value="true">Yes</input>
+                <input type="radio" name="nottest" value="false">No</input>
+            </div>
+        </div> -->
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+    <p>Logged in as {{user}}</p>
+{% endblock %}
+
+{% block javascript %}
+    {{ super() }}
+    <script src="//tools.wmflabs.org/static/res/jquery-ui/1.11.1/jquery-ui.min.js"></script>
+    <script src="{{url_for('static', filename='commons-search.js')}}"></script>
+{% endblock %}
