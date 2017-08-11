@@ -2,7 +2,8 @@
 from flask import (
     Flask,
     render_template,
-    request)
+    request,
+    Markup)
 import json
 import requests
 import pywikibot
@@ -12,7 +13,10 @@ app = Flask(__name__)
 
 COMMONS = pywikibot.Site('commons', 'commons')
 FILE_NAMESPACE = 6
+
 IMAGE_WIDTH = 300
+IMAGE_HEIGHT = 200
+
 COMMONS_QI_CATEGORY = 'Category:Quality images'
 COMMONS_FP_CATEGORY = 'Category:Featured pictures on Wikimedia Commons'
 COMMONS_VI_CATEGORY = 'Category:Valued images sorted by promotion date'
@@ -21,7 +25,9 @@ u'Category:Supported by Wikimedia Deutschland‎', u'Category:Supported by Wikim
 u'Category:Supported by Wikimedia Italia‎', u'Category:Supported by Wikimedia UK',
 u'Category:Supported by Wikimedia Österreich‎ ', u'Category:Media supported by Wikimedia France',
 u'Images uploaded by Fæ']
+
 GLOBALUSAGE_URL = "https://commons.wikimedia.org/w/api.php?action=query&prop=globalusage&format=json&titles="
+
 IMAGES = json.loads(open("images.json").read())
 
 def number_of_usages(image):
@@ -88,15 +94,55 @@ def best_image(category, with_usage):
             best_image = image
     return best_image
 
-def generated_code(category_name, with_usage):
+def generated_code(category_name, with_usage, width=True):
     image = best_image(category_name, with_usage)
     with open("images.json", "w") as file:
         data = json.dumps(IMAGES, indent=2)
         file.write(data)
-    return [image.title(), image.get_file_url(url_width=IMAGE_WIDTH), image.full_url(), IMAGES]
+    if width:
+        return [image.title(), image.get_file_url(url_width=IMAGE_WIDTH), image.full_url(), IMAGES]
+    else:
+        dict = {}
+        dict["Title"]=image.title()
+        dict["Image"]=image.get_file_url(url_height=IMAGE_HEIGHT)
+        dict["URL"]=image.full_url()
+        return dict
+
+def generate_gallery(category_name, with_usage):
+    HTML_gallery = ""
+    WIKI_gallery = "<gallery mode=\"packed\">"
+    for category in page.Category(COMMONS, category_name).subcategories():
+        code = generated_code(category.title(), with_usage, False)
+        HTML_gallery = HTML_gallery + "<img src=\""+code["Image"]+"\" height=\""+str(IMAGE_HEIGHT)+"\">"
+        WIKI_gallery = WIKI_gallery + "\n"+code["Title"]+"|[[:"+category.title()+"|"+category.title()[9:]+"]]"
+    WIKI_gallery = WIKI_gallery+"\n</gallery>"
+    return [Markup(HTML_gallery), WIKI_gallery]
+
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    return 'Index Page'
+
+@app.route('/gallery/', methods=['GET', 'POST'])
+def gallery():
+    gallery = {
+        'category_name': '',
+        'code_generated': '',
+        'with_usage':False
+    }
+    if request.method == 'POST':
+        gallery['category_name'] = request.form['category']
+        gallery['with_usage'] = "with_usage_true" in request.form['with_usage']
+        generated =  generate_gallery(gallery['category_name'], gallery['with_usage'])
+        gallery['HTML'] = generated[0]
+        gallery['WIKI'] = generated[1]
+    else:
+        # GET
+        pass
+    return render_template('view_gallery.html', **gallery)
+
+@app.route('/image', methods=['GET', 'POST'])
+def image():
     gallery = {
         'category_name': '',
         'code_generated': '',

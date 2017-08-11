@@ -7,7 +7,7 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Canon de 75 galerie 9320.JPG": {
+  "File:Palais Duc Pano.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -46,6 +46,21 @@
     "Valued": false, 
     "Usage": 0, 
     "Quality": false
+  }, 
+  "File:Vincent van Gogh - Portrait of Joseph Roulin - Google Art Project.jpg": {
+    "Google": true, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 1, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Olivenhain3.jpg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
   }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 008.jpg": {
     "Google": false, 
@@ -87,12 +102,59 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Wikicheese - Brie de Meaux - 20150515 - 010.jpg": {
+    "Google": false, 
+    "Partnership": true, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Landschaft mit Olivenbaum und Bergkette im Hintergrund.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
+  }, 
+  "File:Portrait of the Postman Joseph Roulin (1888) van Gogh Winterthur.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Vincent van Gogh - Portrait of Joseph Roulin.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
   "File:Brie de Meaux au march\u00e9.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 1, 
+    "Quality": false
+  }, 
+  "File:Vincent van Gogh - Portret van de postbode Joseph Roulin.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Portrait of the Postman Joseph Roulin (1888) van Gogh DIA.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:Jeune fille, all\u00e9gorie de la Gr\u00e8ce, par David d'Angers 01.JPG": {
@@ -127,12 +189,28 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Van Gogh - Joseph Roulin - 1888.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 1, 
+    "Quality": false
+  }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 001.jpg": {
     "Google": false, 
     "Partnership": true, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Bildnis Josepf Roulin, an einem Tisch sitzend.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 3, 
     "Quality": false
   }, 
   "File:Brie de Meaux.jpg": {
@@ -162,6 +240,14 @@
   "File:Wikicheese - Brie de Melun - 20150515 - 002.jpg": {
     "Google": false, 
     "Partnership": true, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:1889 van Gogh Portrait Joseph Roulin anagoria.JPG": {
+    "Google": false, 
+    "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
@@ -263,6 +349,14 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:WLA moma Vincent van Gogh Portrait of Joseph Roulin 2.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
   "File:Wikicheese - Brie de Meaux - 20150515 - 011.jpg": {
     "Google": false, 
     "Partnership": true, 
@@ -296,6 +390,14 @@
     "Quality": false
   }, 
   "File:Brie de Meaux bo\u00eete 19.03.2012.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Bildnis Joseph Roulin5.jpeg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -367,7 +469,7 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Patio, Gallrie David d'Angers.JPG": {
+  "File:WLA moma Vincent van Gogh Portrait of Joseph Roulin 1889.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -389,6 +491,22 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Vincent Van Gogh Joseph Roulin.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 1, 
+    "Quality": false
+  }, 
+  "File:WLA moma Vincent van Gogh Portrait of Joseph Roulin 4.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Wikicheese - Brie de Meaux - 20150515 - 009.jpg": {
@@ -424,6 +542,14 @@
     "Quality": false
   }, 
   "File:Chapiteaux 8891.JPG": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Patio, Gallrie David d'Angers.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -487,12 +613,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Meaux - 20150515 - 010.jpg": {
+  "File:Van Gogh - Bildnis Josepf Roulin1.jpeg": {
     "Google": false, 
-    "Partnership": true, 
+    "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 5, 
     "Quality": false
   }, 
   "File:Brie 02.jpg": {
@@ -517,6 +643,14 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:WLA moma Vincent van Gogh Portrait of Joseph Roulin.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 024.jpg": {
@@ -550,6 +684,28 @@
     "Valued": false, 
     "Usage": 0, 
     "Quality": false
+  }, 
+  "File:Portrait of the Postman Joseph Roulin (1889) van Gogh Kroller.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Olivenhain.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
+  }, 
+  "File:Van Gogh - H\u00fctten zwischen Olivenb\u00e4umen und Zypressen.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
   }, 
   "File:Nancy, Palais des Ducs de Lorraine 06.JPG": {
     "Google": false, 
@@ -591,6 +747,14 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Wikicheese - Brie de Meaux - 20150515 - 021.jpg": {
+    "Google": false, 
+    "Partnership": true, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
   "File:Palais ducal de Nancy.jpg": {
     "Google": false, 
     "Partnership": false, 
@@ -599,13 +763,20 @@
     "Usage": 4, 
     "Quality": false
   }, 
-  "File:Palais Duc Pano.jpg": {
+  "File:Canon de 75 galerie 9320.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
     "Quality": false
+  }, 
+  "File:Van Gogh - Wei\u00dfes Bauernhaus zwischen Olivenb\u00e4umen.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
   }, 
   "File:Nancy - palais ducal (4).JPG": {
     "Google": false, 
@@ -614,6 +785,13 @@
     "Valued": false, 
     "Usage": 1, 
     "Quality": false
+  }, 
+  "File:Van Gogh - Olivenb\u00e4ume.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
   }, 
   "File:Brie de Meaux tomme emball\u00e9e 19.03.2012.jpg": {
     "Google": false, 
@@ -663,6 +841,14 @@
     "Usage": 1, 
     "Quality": false
   }, 
+  "File:Van Gogh - Bildnis Joseph Roulin4.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 026.jpg": {
     "Google": false, 
     "Partnership": true, 
@@ -679,12 +865,34 @@
     "Usage": 3, 
     "Quality": false
   }, 
+  "File:Van Gogh - Oilvenhain mit pfl\u00fcckenden Figuren.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
+  }, 
   "File:NCY-Palais ducal front gargoyles.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 1, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Olivenb\u00e4ume auf einem H\u00fcgel.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
+  }, 
+  "File:Portrait of the Postman Joseph Roulin (1888) van Gogh Getty.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 8, 
     "Quality": false
   }, 
   "File:Porterie.jpg": {
@@ -726,6 +934,13 @@
     "Valued": false, 
     "Usage": 0, 
     "Quality": false
+  }, 
+  "File:Van Gogh - Olivenpfl\u00fccker2.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
   }, 
   "File:Brie 04.jpg": {
     "Google": false, 
@@ -783,6 +998,14 @@
     "Usage": 2, 
     "Quality": false
   }, 
+  "File:Van Gogh - Bildnis Joseph Roulin.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
   "File:Nancy Palais Ducal BW 2015-07-18 17-11-17.jpg": {
     "Google": false, 
     "Partnership": false, 
@@ -831,12 +1054,20 @@
     "Usage": 2, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Meaux - 20150515 - 021.jpg": {
-    "Google": false, 
-    "Partnership": true, 
+  "File:Vincent van Gogh - Portrait de Joseph Roulin - Google Art Project.jpg": {
+    "Google": true, 
+    "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Bildnis Joseph Roulin3.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 1, 
     "Quality": false
   }, 
   "File:Jeune fille, all\u00e9gorie de la Gr\u00e8ce, par David d'Angers 03-black.jpg": {
@@ -863,12 +1094,27 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Van Gogh - Olivenhain mit blauem Himmel.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
+  }, 
   "File:NCY-Palais ducal porterie 2.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Vincent van Gogh-facteur-Boston.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 1, 
     "Quality": false
   }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 005.jpg": {
@@ -909,6 +1155,14 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Van Gogh Portrait of the Postman Joseph Roulin.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
     "Quality": false
   }
 }
