@@ -51,10 +51,6 @@ def compute_criteria(image, with_usage):
             IMAGES[img]["Valued"] = IMAGES[img]["Valued"] or category.title() == COMMONS_VI_CATEGORY
             IMAGES[img]["Quality"] = IMAGES[img]["Quality"] or category.title() == COMMONS_QI_CATEGORY
             IMAGES[img]["Partnership"] = IMAGES[img]["Partnership"] or category.title() in SUPPORTED_CATEGORIES
-        with open("images.json", "w") as file:
-            data = json.dumps(IMAGES, indent=2)
-            file.write(data)
-
     return IMAGES[img]
 
 def images_of(category):
@@ -94,6 +90,9 @@ def best_image(category, with_usage):
 
 def generated_code(category_name, with_usage):
     image = best_image(category_name, with_usage)
+    with open("images.json", "w") as file:
+        data = json.dumps(IMAGES, indent=2)
+        file.write(data)
     return [image.title(), image.get_file_url(url_width=IMAGE_WIDTH), image.full_url(), IMAGES]
 
 @app.route('/', methods=['GET', 'POST'])
