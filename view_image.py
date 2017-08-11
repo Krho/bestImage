@@ -4,6 +4,7 @@ from flask import (
     render_template,
     request)
 import json
+import requests
 import pywikibot
 from pywikibot import page
 
@@ -18,11 +19,17 @@ COMMONS_VI_CATEGORY = 'Category:Valued images sorted by promotion date'
 SUPPORTED_CATEGORIES = [u'Category:Supported by Wikimedia AU‎', u'Category:Supported by Wikimedia CH‎',
 u'Category:Supported by Wikimedia Deutschland‎', u'Category:Supported by Wikimedia France',
 u'Category:Supported by Wikimedia Italia‎', u'Category:Supported by Wikimedia UK',
-u'Category:Supported by Wikimedia Österreich‎ ', u'Category:Media supported by Wikimedia France']
-# IMAGES = json.loads(open("images.json").read())
-IMAGES = {}
+u'Category:Supported by Wikimedia Österreich‎ ', u'Category:Media supported by Wikimedia France',
+u'Images uploaded by Fæ']
+GLOBALUSAGE_URL = "https://commons.wikimedia.org/w/api.php?action=query&prop=globalusage&format=json&titles="
+IMAGES = json.loads(open("images.json").read())
 
-def compute_criteria(image):
+def number_of_usages(image):
+    dict = requests.get(GLOBALUSAGE_URL+image.title()).json()["query"]["pages"]
+    pageid = requests.get(GLOBALUSAGE_URL+image.title()).json()["query"]["pages"].keys()[0]
+    return len(dict[pageid]["globalusage"])
+
+def compute_criteria(image, with_usage):
     # Init
     img = image.title()
     if img not in IMAGES:
@@ -30,7 +37,10 @@ def compute_criteria(image):
     # Google
     if "Google" not in IMAGES[img]:
         IMAGES[img]["Google"] = "Google" in img
-    # QI/VI/FP and chapter
+    # Usage
+    if with_usage and "Usage" not in IMAGES[img]:
+        IMAGES[img]["Usage"] = number_of_usages(image)
+    # QI/VI/FP and partnership
     if "Featured" not in IMAGES[img]:
         IMAGES[img]["Featured"] = False
         IMAGES[img]["Valued"] = False
@@ -56,42 +66,48 @@ def xor(b1, b2):
 def with_label(c):
     return c["Featured"] or c["Valued"] or c["Quality"]
 
-def compare_criteria(c1, c2):
+def compare_criteria(c1, c2, with_usage):
     if xor(c1["Google"], c2["Google"]):
         return c2["Google"]
     if xor(with_label(c1), with_label(c2)):
         return with_label(c2)
-    return c2["Partnership"]
+    if xor(c1["Partnership"], c2["Partnership"]):
+        return c2["Partnership"]
+    if with_usage:
+        return c1["Usage"] < c2["Usage"]
+    return False
 
-def best_image(category):
+def best_image(category, with_usage):
     images = images_of(category)
     if len(images) == 0:
         return None
     # Initiatization
     best_image = images[0]
-    best_criteria = compute_criteria(images[0])
+    best_criteria = compute_criteria(images[0], with_usage)
     # Finding the best
     for image in images:
-        current_criteria = compute_criteria(image)
-        if compare_criteria(best_criteria, current_criteria):
+        current_criteria = compute_criteria(image, with_usage)
+        if compare_criteria(best_criteria, current_criteria, with_usage):
             best_criteria = current_criteria
             best_image = image
     return best_image
 
-def generated_code(category_name):
-    image = best_image(category_name)
+def generated_code(category_name, with_usage):
+    image = best_image(category_name, with_usage)
     return [image.title(), image.get_file_url(url_width=IMAGE_WIDTH), image.full_url(), IMAGES]
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
     gallery = {
         'category_name': '',
-        'code_generated': ''
+        'code_generated': '',
+        'with_usage':False
     }
     if request.method == 'POST':
         # POST method
         gallery['category_name'] = request.form['category']
-        generated =  generated_code(gallery['category_name'])
+        gallery['with_usage'] = "with_usage_true" in request.form['with_usage']
+        generated =  generated_code(gallery['category_name'], gallery['with_usage'])
         gallery['image_name'] = generated[0]
         gallery['image_url'] = generated[1]
         gallery['file_url'] = generated[2]
