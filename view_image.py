@@ -108,10 +108,25 @@ def generated_code(category_name, with_usage, width=True):
         dict["URL"]=image.full_url()
         return dict
 
-def generate_gallery(category_name, with_usage):
+def subcategories(category_name, flattening=False):
+    if flattening:
+        result = []
+        for category in page.Category(COMMONS, category_name).subcategories():
+            subs = [cat for cat in category.subcategories()]
+            if len(subs) == 0:
+                result.append(category)
+            else:
+                for subcategory in subs:
+                    result.append(subcategory)
+        return result
+    else:
+        return [category for category in page.Category(COMMONS, category_name).subcategories()]
+
+def generate_gallery(category_name, with_usage, flattening=False):
     HTML_gallery = ""
     WIKI_gallery = "<gallery mode=\"packed\">"
-    for category in page.Category(COMMONS, category_name).subcategories():
+    categories = subcategories(category_name, flattening)
+    for category in categories:
         code = generated_code(category.title(), with_usage, False)
         HTML_gallery = HTML_gallery + "<img src=\""+code["Image"]+"\" height=\""+str(IMAGE_HEIGHT)+"\">"
         WIKI_gallery = WIKI_gallery + "\n"+code["Title"]+"|[[:"+category.title()+"|"+category.title()[9:]+"]]"
@@ -132,8 +147,10 @@ def gallery():
     }
     if request.method == 'POST':
         gallery['category_name'] = request.form['category']
-        gallery['with_usage'] = "with_usage_true" in request.form['with_usage']
-        generated =  generate_gallery(gallery['category_name'], gallery['with_usage'])
+
+        gallery['with_usage'] = "with_usage" in request.form['with_usage']
+        gallery['flattening'] = "flattening" in request.form["flattening"]
+        generated =  generate_gallery(gallery['category_name'], gallery['with_usage'], gallery['flattening'])
         gallery['HTML'] = generated[0]
         gallery['WIKI'] = generated[1]
     else:
@@ -151,7 +168,8 @@ def image():
     if request.method == 'POST':
         # POST method
         gallery['category_name'] = request.form['category']
-        gallery['with_usage'] = "with_usage_true" in request.form['with_usage']
+        gallery['with_usage'] = "with_usage" in request.form['with_usage']
+        gallery['flattening'] = "flattening" in request.form["flattening"]
         generated =  generated_code(gallery['category_name'], gallery['with_usage'])
         gallery['image_name'] = generated[0]
         gallery['image_url'] = generated[1]

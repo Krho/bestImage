@@ -39,7 +39,7 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Exposition \"Les Orientales\" (Maison de Victor Hugo).jpg": {
+  "File:Portret van Marcelle Roulin - s0167V1962 - Van Gogh Museum.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -61,6 +61,14 @@
     "Quality": false, 
     "Partnership": false, 
     "Valued": false
+  }, 
+  "File:Vincent Willem van Gogh 087.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
   }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 008.jpg": {
     "Google": false, 
@@ -110,12 +118,13 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Van Gogh - Landschaft mit Olivenbaum und Bergkette im Hintergrund.jpeg": {
-    "Featured": false, 
+  "File:The Baby Marcell Roulin - My Dream.jpg": {
     "Google": false, 
-    "Quality": false, 
     "Partnership": false, 
-    "Valued": false
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
   }, 
   "File:Portrait of the Postman Joseph Roulin (1888) van Gogh Winterthur.jpg": {
     "Google": false, 
@@ -213,12 +222,12 @@
     "Usage": 3, 
     "Quality": false
   }, 
-  "File:Brie de Meaux.jpg": {
+  "File:Van Gogh - Bildnis Armand Roulin.jpeg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 7, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:NCY-Palais ducal porterie.jpg": {
@@ -269,6 +278,14 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Exposition \"Les Orientales\" (Maison de Victor Hugo).jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
   "File:Fa\u00e7ader\u00e9nov\u00e9eduMus\u00e9eLorrain.jpg": {
     "Google": false, 
     "Partnership": false, 
@@ -285,6 +302,14 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Vincent van Gogh - Portret van Madame Augustine Roulin en Baby Marcelle.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 1, 
+    "Quality": false
+  }, 
   "File:Brie de Meaux tomme d\u00e9ball\u00e9e 19.03.2012.jpg": {
     "Google": false, 
     "Partnership": false, 
@@ -293,12 +318,28 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Van Gogh - Marcelle Roulin als Baby2.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
   "File:Chapiteau 8888.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 1, 
+    "Quality": false
+  }, 
+  "File:Brie de Meaux.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 7, 
     "Quality": false
   }, 
   "File:Palais des Ducs de Lorraine sculpture 01.JPG": {
@@ -413,6 +454,14 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Van Gogh - Madame Augustine Roulin mit Baby1.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
   "File:Nancy, Palais des Ducs de Lorraine 05.JPG": {
     "Google": false, 
     "Partnership": false, 
@@ -493,12 +542,12 @@
     "Usage": 10, 
     "Quality": false
   }, 
-  "File:Vincent Van Gogh Joseph Roulin.jpg": {
+  "File:Nancy Palais des Ducs.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 1, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:WLA moma Vincent van Gogh Portrait of Joseph Roulin 4.jpg": {
@@ -581,6 +630,14 @@
     "Usage": 1, 
     "Quality": false
   }, 
+  "File:Augustine Roulin Philadelphia 01.JPG": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 025.jpg": {
     "Google": false, 
     "Partnership": true, 
@@ -590,6 +647,14 @@
     "Quality": false
   }, 
   "File:Porterie mus\u00e9e lorrain.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Augustine Roulin Philadelphia 04.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -661,7 +726,15 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Nancy Palais des Ducs.JPG": {
+  "File:Vincent Van Gogh Joseph Roulin.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 1, 
+    "Quality": false
+  }, 
+  "File:Nancy Mus\u00e9e Lorrain.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -669,7 +742,7 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Nancy Mus\u00e9e Lorrain.JPG": {
+  "File:NY Met van gogh madame roulin.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -683,6 +756,14 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Marcelle Roulin als Baby.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:Portrait of the Postman Joseph Roulin (1889) van Gogh Kroller.jpg": {
@@ -771,12 +852,28 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Vincent van Gogh - Portrait of Marcelle Roulin - F441a JH1640.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 7, 
+    "Quality": false
+  }, 
   "File:Van Gogh - Wei\u00dfes Bauernhaus zwischen Olivenb\u00e4umen.jpeg": {
     "Featured": false, 
     "Google": false, 
     "Quality": false, 
     "Partnership": false, 
     "Valued": false
+  }, 
+  "File:Augustine Roulin Philadelphia 02.JPG": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
   }, 
   "File:Nancy - palais ducal (4).JPG": {
     "Google": false, 
@@ -792,6 +889,14 @@
     "Quality": false, 
     "Partnership": false, 
     "Valued": false
+  }, 
+  "File:Van Gogh - Marcelle Roulin als Baby1.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
   }, 
   "File:Brie de Meaux tomme emball\u00e9e 19.03.2012.jpg": {
     "Google": false, 
@@ -911,12 +1016,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Nancy - palais ducal, d\u00e9tail de la fa\u00e7ade (2).jpg": {
+  "File:Van Gogh - Bildnis Armand Roulin im Alter von 17 Jahren.jpeg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:Brie de Melun.jpg": {
@@ -925,6 +1030,14 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 8, 
+    "Quality": false
+  }, 
+  "File:Augustine Roulin Philadelphia 03.JPG": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 012.jpg": {
@@ -1022,12 +1135,36 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Vincent Willem van Gogh 088.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
   "File:NCY-Palais ducal porterie inside.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 1, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - Madame Augustine Roulin mit Baby.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Vincent van Gogh - Portrait of Armand Roulin - Google Art Project.jpg": {
+    "Google": true, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:Nancy Palais Ducal BW 2015-07-18 15-54-06.jpg": {
@@ -1046,12 +1183,35 @@
     "Usage": 1, 
     "Quality": false
   }, 
+  "File:Van Gogh - Landschaft mit Olivenbaum und Bergkette im Hintergrund.jpeg": {
+    "Featured": false, 
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
+  }, 
+  "File:Nancy - palais ducal, d\u00e9tail de la fa\u00e7ade (2).jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
   "File:Palais ducal nancy.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 2, 
+    "Quality": false
+  }, 
+  "File:VincentVanGoghArmandRoulin1888.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 7, 
     "Quality": false
   }, 
   "File:Vincent van Gogh - Portrait de Joseph Roulin - Google Art Project.jpg": {
@@ -1107,6 +1267,14 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Vincent Willem van Gogh 003.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:Vincent van Gogh-facteur-Boston.jpeg": {
