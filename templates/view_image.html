@@ -3,15 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>Best image</title>
+        <link rel="stylesheet" href="../static/style.css" />
     </head>
     <body style="margin: 0 auto; width:60%">
         <form action="/image" method="post">
             <h2>Category name:</h2>
             <input type="text" name="category" style="width:100%;" value="{{ category_name }}"><br>
-            <h2>With usage of the images</h2>
-            <p>Means that images used on Wikimedia projects will receive a highter ranking than unused ones.</p>
-            <input type="radio" name="with_usage" id="with_usage_true" value="with_usage_true">Yes</input><br>
-            <input type="radio" name="with_usage" id="with_usage_false" value="with_usage_false">No</input><br>
+            <input type="checkbox" name="with_usage" value="with_usage">images used on Wikimedia projects will receive a highter ranking than unused ones.</input><br>
             <input type="submit" value="Find the best image !">
         </form>
         {% if image_name %}

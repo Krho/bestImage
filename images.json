@@ -7,7 +7,15 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Palais Duc Pano.jpg": {
+  "File:La Berceuse Augustine Roulin Otterlo.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Canon de 75 galerie 9320.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -39,7 +47,7 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Portret van Marcelle Roulin - s0167V1962 - Van Gogh Museum.jpg": {
+  "File:Exposition \"Les Orientales\" (Maison de Victor Hugo).jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -55,19 +63,20 @@
     "Usage": 1, 
     "Quality": false
   }, 
-  "File:Van Gogh - Olivenhain3.jpg": {
-    "Featured": false, 
-    "Google": false, 
-    "Quality": false, 
-    "Partnership": false, 
-    "Valued": false
-  }, 
-  "File:Vincent Willem van Gogh 087.jpg": {
+  "File:Augustine Roulin Philadelphia 04.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 10, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:WLA moma Vincent van Gogh Portrait of Joseph Roulin 1889.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 008.jpg": {
@@ -102,7 +111,7 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Mascarons de plafond 8885.JPG": {
+  "File:Van Gogh - La Berceuse (Augustine Roulin)4.jpeg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -110,20 +119,28 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Meaux - 20150515 - 010.jpg": {
-    "Google": false, 
-    "Partnership": true, 
-    "Featured": false, 
-    "Valued": false, 
-    "Usage": 0, 
-    "Quality": false
-  }, 
-  "File:The Baby Marcell Roulin - My Dream.jpg": {
+  "File:Van Gogh - Bildnis Josepf Roulin1.jpeg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 5, 
+    "Quality": false
+  }, 
+  "File:Portrait of Madame Augustine Roulin 1888 van Gogh Winterthur.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Nancy - palais ducal, fa\u00e7ade (2).jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 5, 
     "Quality": false
   }, 
   "File:Portrait of the Postman Joseph Roulin (1888) van Gogh Winterthur.jpg": {
@@ -140,6 +157,14 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Brie de Meaux close.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 2, 
     "Quality": false
   }, 
   "File:Brie de Meaux au march\u00e9.jpg": {
@@ -222,12 +247,12 @@
     "Usage": 3, 
     "Quality": false
   }, 
-  "File:Van Gogh - Bildnis Armand Roulin.jpeg": {
+  "File:Brie de Meaux.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 7, 
     "Quality": false
   }, 
   "File:NCY-Palais ducal porterie.jpg": {
@@ -246,12 +271,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Melun - 20150515 - 002.jpg": {
+  "File:Van Gogh - Madame Augustine Roulin mit Baby1.jpeg": {
     "Google": false, 
-    "Partnership": true, 
+    "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:1889 van Gogh Portrait Joseph Roulin anagoria.JPG": {
@@ -278,7 +303,7 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Exposition \"Les Orientales\" (Maison de Victor Hugo).jpg": {
+  "File:Portret van Marcelle Roulin - s0167V1962 - Van Gogh Museum.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -334,12 +359,12 @@
     "Usage": 1, 
     "Quality": false
   }, 
-  "File:Brie de Meaux.jpg": {
+  "File:Van Gogh - Bildnis Armand Roulin.jpeg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 7, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Palais des Ducs de Lorraine sculpture 01.JPG": {
@@ -422,12 +447,20 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Melun - 20150515 - 021.jpg": {
+  "File:La Berceuse 1889 van Gogh Stedelijk Museum.jpg": {
     "Google": false, 
-    "Partnership": true, 
+    "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 4, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Galerie David d'Angers (2).jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Brie de Meaux bo\u00eete 19.03.2012.jpg": {
@@ -454,12 +487,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Van Gogh - Madame Augustine Roulin mit Baby1.jpeg": {
+  "File:La Berceuse.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 10, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Nancy, Palais des Ducs de Lorraine 05.JPG": {
@@ -494,6 +527,14 @@
     "Usage": 0, 
     "Quality": false
   }, 
+  "File:Lullaby - Madame Augustine Roulin Rocking a Cradle.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 3, 
+    "Quality": false
+  }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 010.jpg": {
     "Google": false, 
     "Partnership": true, 
@@ -510,7 +551,7 @@
     "Usage": 1, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Meaux - 20150515 - 018.jpg": {
+  "File:Wikicheese - Brie de Melun - 20150515 - 024.jpg": {
     "Google": false, 
     "Partnership": true, 
     "Featured": false, 
@@ -518,13 +559,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:WLA moma Vincent van Gogh Portrait of Joseph Roulin 1889.jpg": {
-    "Google": false, 
-    "Partnership": false, 
+  "File:Van Gogh - Olivenhain3.jpg": {
     "Featured": false, 
-    "Valued": false, 
-    "Usage": 0, 
-    "Quality": false
+    "Google": false, 
+    "Quality": false, 
+    "Partnership": false, 
+    "Valued": false
   }, 
   "File:Nancy, Palais des Ducs de Lorraine, 1502 (22)a.jpg": {
     "Google": false, 
@@ -542,12 +582,12 @@
     "Usage": 10, 
     "Quality": false
   }, 
-  "File:Nancy Palais des Ducs.JPG": {
+  "File:Vincent Van Gogh Joseph Roulin.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 1, 
     "Quality": false
   }, 
   "File:WLA moma Vincent van Gogh Portrait of Joseph Roulin 4.jpg": {
@@ -574,13 +614,13 @@
     "Usage": 4, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Meaux - 20150515 - 008.jpg": {
+  "File:Nancy Palais Ducal BW 2015-07-18 15-54-06.jpg": {
     "Google": false, 
-    "Partnership": true, 
+    "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
-    "Quality": false
+    "Usage": 2, 
+    "Quality": true
   }, 
   "File:NCY-Palais ducal porterie-corrected.png": {
     "Google": false, 
@@ -604,6 +644,22 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Nancy Palais Ducal BW 2015-07-18 17-11-17.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": true
+  }, 
+  "File:1889 Vincent van Gogh La Berceuse anagoria.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 3, 
     "Quality": false
   }, 
   "File:Palais des ducs de Lorraine.JPG": {
@@ -630,7 +686,7 @@
     "Usage": 1, 
     "Quality": false
   }, 
-  "File:Augustine Roulin Philadelphia 01.JPG": {
+  "File:Nancy Mus\u00e9e Lorrain.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -654,14 +710,6 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Augustine Roulin Philadelphia 04.JPG": {
-    "Google": false, 
-    "Partnership": false, 
-    "Featured": false, 
-    "Valued": false, 
-    "Usage": 0, 
-    "Quality": false
-  }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 020.jpg": {
     "Google": false, 
     "Partnership": true, 
@@ -678,12 +726,28 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Van Gogh - Bildnis Josepf Roulin1.jpeg": {
+  "File:Wikicheese - Brie de Meaux - 20150515 - 010.jpg": {
+    "Google": false, 
+    "Partnership": true, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Nancy - palais ducal, d\u00e9tail de la fa\u00e7ade (2).jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 5, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Vincent Willem van Gogh 084.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:Brie 02.jpg": {
@@ -718,7 +782,7 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Melun - 20150515 - 024.jpg": {
+  "File:Wikicheese - Brie de Meaux - 20150515 - 018.jpg": {
     "Google": false, 
     "Partnership": true, 
     "Featured": false, 
@@ -726,15 +790,15 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Vincent Van Gogh Joseph Roulin.jpg": {
+  "File:Nancy Palais des Ducs.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 1, 
+    "Usage": 0, 
     "Quality": false
   }, 
-  "File:Nancy Mus\u00e9e Lorrain.JPG": {
+  "File:Augustine Roulin Philadelphia 01.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -750,12 +814,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Jeune fille grecque David d'Angers.JPG": {
+  "File:Portrait of the Postman Joseph Roulin (1889) van Gogh Kroller.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:Van Gogh - Marcelle Roulin als Baby.jpeg": {
@@ -766,12 +830,12 @@
     "Usage": 10, 
     "Quality": false
   }, 
-  "File:Portrait of the Postman Joseph Roulin (1889) van Gogh Kroller.jpg": {
+  "File:Jeune fille grecque David d'Angers.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 10, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Van Gogh - Olivenhain.jpeg": {
@@ -820,6 +884,14 @@
     "Usage": 2, 
     "Quality": false
   }, 
+  "File:Vincent van Gogh - La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851\u20131930).jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
   "File:Wikicheese - Brie de Meaux - 20150515 - 007.jpg": {
     "Google": false, 
     "Partnership": true, 
@@ -828,12 +900,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Meaux - 20150515 - 021.jpg": {
+  "File:Van Gogh - Bildnis Joseph Roulin3.jpeg": {
     "Google": false, 
-    "Partnership": true, 
+    "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 1, 
     "Quality": false
   }, 
   "File:Palais ducal de Nancy.jpg": {
@@ -844,7 +916,23 @@
     "Usage": 4, 
     "Quality": false
   }, 
-  "File:Canon de 75 galerie 9320.JPG": {
+  "File:La Berceuse - 1889.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - La Berceuse (Augustine Roulin)3.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Palais Duc Pano.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
@@ -860,6 +948,14 @@
     "Usage": 7, 
     "Quality": false
   }, 
+  "File:Van Gogh - Bildnis Augustine Roulin.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 8, 
+    "Quality": false
+  }, 
   "File:Van Gogh - Wei\u00dfes Bauernhaus zwischen Olivenb\u00e4umen.jpeg": {
     "Featured": false, 
     "Google": false, 
@@ -873,6 +969,14 @@
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
+    "Quality": false
+  }, 
+  "File:Vincent van Gogh - Madame Roulin (La Berceuse).jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 1, 
     "Quality": false
   }, 
   "File:Nancy - palais ducal (4).JPG": {
@@ -898,9 +1002,9 @@
     "Usage": 10, 
     "Quality": false
   }, 
-  "File:Brie de Meaux tomme emball\u00e9e 19.03.2012.jpg": {
+  "File:Wikicheese - Brie de Meaux - 20150515 - 006.jpg": {
     "Google": false, 
-    "Partnership": false, 
+    "Partnership": true, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
@@ -922,12 +1026,12 @@
     "Usage": 2, 
     "Quality": false
   }, 
-  "File:Galerie David d'Angers (2).jpg": {
+  "File:Wikicheese - Brie de Melun - 20150515 - 021.jpg": {
     "Google": false, 
-    "Partnership": false, 
+    "Partnership": true, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 4, 
     "Quality": false
   }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 014.jpg": {
@@ -938,12 +1042,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Nancy, Palais des Ducs de Lorraine 04.JPG": {
+  "File:Porterie.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 1, 
+    "Usage": 2, 
     "Quality": false
   }, 
   "File:Van Gogh - Bildnis Joseph Roulin4.jpeg": {
@@ -1000,12 +1104,12 @@
     "Usage": 8, 
     "Quality": false
   }, 
-  "File:Porterie.jpg": {
+  "File:Nancy, Palais des Ducs de Lorraine 04.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 2, 
+    "Usage": 1, 
     "Quality": false
   }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 019.jpg": {
@@ -1071,12 +1175,12 @@
     "Usage": 0, 
     "Quality": true
   }, 
-  "File:Nancy - palais ducal, fa\u00e7ade (2).jpg": {
+  "File:The Baby Marcell Roulin - My Dream.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 5, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Palais des Ducs de Lorraine.jpg": {
@@ -1103,12 +1207,12 @@
     "Usage": 0, 
     "Quality": false
   }, 
-  "File:Brie de Meaux close.jpg": {
+  "File:Mascarons de plafond 8885.JPG": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 2, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Van Gogh - Bildnis Joseph Roulin.jpeg": {
@@ -1119,13 +1223,13 @@
     "Usage": 10, 
     "Quality": false
   }, 
-  "File:Nancy Palais Ducal BW 2015-07-18 17-11-17.jpg": {
+  "File:Wikicheese - Brie de Melun - 20150515 - 002.jpg": {
     "Google": false, 
-    "Partnership": false, 
+    "Partnership": true, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
-    "Quality": true
+    "Quality": false
   }, 
   "File:Wikicheese - Brie de Meaux - 20150515 - 020.jpg": {
     "Google": false, 
@@ -1167,13 +1271,21 @@
     "Usage": 10, 
     "Quality": false
   }, 
-  "File:Nancy Palais Ducal BW 2015-07-18 15-54-06.jpg": {
+  "File:Van Gogh - La Berceuse (Augustine Roulin)1.jpeg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 2, 
-    "Quality": true
+    "Usage": 1, 
+    "Quality": false
+  }, 
+  "File:Wikicheese - Brie de Meaux - 20150515 - 008.jpg": {
+    "Google": false, 
+    "Partnership": true, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
   }, 
   "File:Nancy, Palais des Ducs de Lorraine 02.JPG": {
     "Google": false, 
@@ -1183,6 +1295,14 @@
     "Usage": 1, 
     "Quality": false
   }, 
+  "File:Vincent van Gogh - La berceuse (Portret van Madame Roulin) - Google Art Project.jpg": {
+    "Google": true, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
   "File:Van Gogh - Landschaft mit Olivenbaum und Bergkette im Hintergrund.jpeg": {
     "Featured": false, 
     "Google": false, 
@@ -1190,12 +1310,12 @@
     "Partnership": false, 
     "Valued": false
   }, 
-  "File:Nancy - palais ducal, d\u00e9tail de la fa\u00e7ade (2).jpg": {
+  "File:Vincent Willem van Gogh 087.jpg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 0, 
+    "Usage": 10, 
     "Quality": false
   }, 
   "File:Palais ducal nancy.JPG": {
@@ -1222,12 +1342,12 @@
     "Usage": 10, 
     "Quality": false
   }, 
-  "File:Van Gogh - Bildnis Joseph Roulin3.jpeg": {
+  "File:Wikicheese - Brie de Meaux - 20150515 - 021.jpg": {
     "Google": false, 
-    "Partnership": false, 
+    "Partnership": true, 
     "Featured": false, 
     "Valued": false, 
-    "Usage": 1, 
+    "Usage": 0, 
     "Quality": false
   }, 
   "File:Jeune fille, all\u00e9gorie de la Gr\u00e8ce, par David d'Angers 03-black.jpg": {
@@ -1238,9 +1358,9 @@
     "Usage": 1, 
     "Quality": false
   }, 
-  "File:Wikicheese - Brie de Meaux - 20150515 - 006.jpg": {
+  "File:Brie de Meaux tomme emball\u00e9e 19.03.2012.jpg": {
     "Google": false, 
-    "Partnership": true, 
+    "Partnership": false, 
     "Featured": false, 
     "Valued": false, 
     "Usage": 0, 
@@ -1285,6 +1405,14 @@
     "Usage": 1, 
     "Quality": false
   }, 
+  "File:Van Gogh - La Berceuse (Augustine Roulin)2.jpeg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 0, 
+    "Quality": false
+  }, 
   "File:Wikicheese - Brie de Melun - 20150515 - 005.jpg": {
     "Google": false, 
     "Partnership": true, 
@@ -1294,6 +1422,14 @@
     "Quality": false
   }, 
   "File:Palais Ducal.jpg": {
+    "Google": false, 
+    "Partnership": false, 
+    "Featured": false, 
+    "Valued": false, 
+    "Usage": 10, 
+    "Quality": false
+  }, 
+  "File:Van Gogh - La Berceuse (Augustine Roulin).jpeg": {
     "Google": false, 
     "Partnership": false, 
     "Featured": false, 

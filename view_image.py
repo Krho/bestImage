@@ -136,7 +136,7 @@ def generate_gallery(category_name, with_usage, flattening=False):
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return 'Index Page'
+    return render_template('view_index.html')
 
 @app.route('/gallery/', methods=['GET', 'POST'])
 def gallery():
