@@ -126,6 +126,9 @@ def generate_gallery(category_name, with_usage, flattening=False):
     HTML_gallery = ""
     WIKI_gallery = "<gallery mode=\"packed\">"
     categories = subcategories(category_name, flattening)
+    if len(categories) == 0:
+        # Feedback when there are no sub categories
+        HTML_gallery = '<p>No subcategory in {}</p>'.format(category_name)
     for category in categories:
         code = generated_code(category.title(), with_usage, False)
         HTML_gallery = HTML_gallery + "<img src=\""+code["Image"]+"\" height=\""+str(IMAGE_HEIGHT)+"\">"
