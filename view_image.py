@@ -148,8 +148,8 @@ def gallery():
     if request.method == 'POST':
         gallery['category_name'] = request.form['category']
 
-        gallery['with_usage'] = "with_usage" in request.form['with_usage']
-        gallery['flattening'] = "flattening" in request.form["flattening"]
+        gallery['with_usage'] = "with_usage" in request.form
+        gallery['flattening'] = "flattening" in request.form
         generated =  generate_gallery(gallery['category_name'], gallery['with_usage'], gallery['flattening'])
         gallery['HTML'] = generated[0]
         gallery['WIKI'] = generated[1]
@@ -168,8 +168,7 @@ def image():
     if request.method == 'POST':
         # POST method
         gallery['category_name'] = request.form['category']
-        gallery['with_usage'] = "with_usage" in request.form['with_usage']
-        gallery['flattening'] = "flattening" in request.form["flattening"]
+        gallery['with_usage'] = "with_usage" in request.form
         generated =  generated_code(gallery['category_name'], gallery['with_usage'])
         gallery['image_name'] = generated[0]
         gallery['image_url'] = generated[1]
