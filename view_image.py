@@ -99,14 +99,16 @@ def generated_code(category_name, with_usage, width=True):
     with open("images.json", "w") as file:
         data = json.dumps(IMAGES, indent=2)
         file.write(data)
-    if width:
+    if image is None:
+        return None
+    elif width:
         return [image.title(), image.get_file_url(url_width=IMAGE_WIDTH), image.full_url(), IMAGES]
     else:
-        dict = {}
-        dict["Title"]=image.title()
-        dict["Image"]=image.get_file_url(url_height=IMAGE_HEIGHT)
-        dict["URL"]=image.full_url()
-        return dict
+        image_infos = {}
+        image_infos["Title"]=image.title()
+        image_infos["Image"]=image.get_file_url(url_height=IMAGE_HEIGHT)
+        image_infos["URL"]=image.full_url()
+        return image_infos
 
 def subcategories(category_name, flattening=False):
     if flattening:
@@ -131,9 +133,10 @@ def generate_gallery(category_name, with_usage, flattening=False):
         HTML_gallery = '<p>No subcategory in {}</p>'.format(category_name)
     for category in categories:
         code = generated_code(category.title(), with_usage, False)
-        HTML_gallery = HTML_gallery + "<img src=\""+code["Image"]+"\" height=\""+str(IMAGE_HEIGHT)+"\">"
-        WIKI_gallery = WIKI_gallery + "\n"+code["Title"]+"|[[:"+category.title()+"|"+category.title()[9:]+"]]"
-    WIKI_gallery = WIKI_gallery+"\n</gallery>"
+        if code:  # generated_code may return None value
+            HTML_gallery = HTML_gallery + "<img src=\"" + code["Image"] + "\" height=\"" + str(IMAGE_HEIGHT) + "\">"
+            WIKI_gallery = WIKI_gallery + "\n" + code["Title"] + "|[[:" + category.title() + "|" + category.title()[9:] + "]]"
+    WIKI_gallery = WIKI_gallery + "\n</gallery>"
     return [Markup(HTML_gallery), WIKI_gallery]
 
 
