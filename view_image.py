@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import (
+    abort,
     Flask,
     render_template,
     request,
@@ -184,6 +185,28 @@ def image():
         # GET
         pass
     return render_template('view_image.html', **gallery)
+
+
+@app.route('/json', methods=['GET'])
+def json_endpoint():
+    """Serve the JSON file.
+
+    If request is used with ?fmt=html, the response is returned to be pretty print in HTML
+    Otherwise just sends the content of the JSON file.
+    """
+    response = ''
+    if request.method == 'GET':
+        with open('images.json', mode='r') as f:
+            images = json.loads(f.read())
+            json_content = json.dumps(images, indent=4)
+            if request.args.get('fmt', '') == 'html':
+                response = '<pre>{}</pre>'.format(json_content)
+            else:
+                response = json_content
+    else:
+        # Method not allowed
+        abort(405)
+    return response
 
 
 if __name__ == '__main__':
