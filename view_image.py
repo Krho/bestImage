@@ -112,7 +112,12 @@ def generated_code(category_name, with_usage, width=True):
     if image is None:
         return None
     elif width:
-        return [image.title(), image.get_file_url(url_width=IMAGE_WIDTH), image.full_url(), IMAGES]
+        return {
+            "Title": image.title(),
+            "Image": image.get_file_url(url_width=IMAGE_WIDTH),
+            "URL": image.full_url(),
+            "debug": IMAGES
+        }
     else:
         return {
             "Title":  image.title(),
@@ -183,10 +188,10 @@ def image():
         gallery['category_name'] = request.form['category']
         gallery['with_usage'] = "with_usage" in request.form
         generated = generated_code(gallery['category_name'], gallery['with_usage'])
-        gallery['image_name'] = generated[0]
-        gallery['image_url'] = generated[1]
-        gallery['file_url'] = generated[2]
-        gallery['debug'] = generated[3]
+        gallery['image_name'] = generated['Title']
+        gallery['image_url'] = generated['Image']
+        gallery['file_url'] = generated['URL']
+        gallery['debug'] = generated['debug']
     else:
         # GET
         pass
