@@ -26,7 +26,7 @@ u'Category:Supported by Wikimedia Italia‎', u'Category:Supported by Wikimedia 
 u'Category:Supported by Wikimedia Österreich‎ ', u'Category:Media supported by Wikimedia France',
 u'Images uploaded by Fæ']
 
-GLOBALUSAGE_URL = "https://commons.wikimedia.org/w/api.php?action=query&prop=globalusage&format=json&titles="
+GLOBALUSAGE_URL = u"https://commons.wikimedia.org/w/api.php?action=query&prop=globalusage&format=json&titles="
 
 IMAGES = json.loads(open("images.json").read())
 
