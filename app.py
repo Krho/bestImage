@@ -167,11 +167,9 @@ def gallery():
     gallery = {'category_name': '', 'code_generated': '', 'with_usage': False}
     if request.method == 'POST':
         gallery['category_name'] = request.form['category']
-
         gallery['with_usage'] = "with_usage" in request.form
         gallery['flattening'] = "flattening" in request.form
-        generated = generate_gallery(gallery['category_name'], gallery['with_usage'],
-                                     gallery['flattening'])
+        generated = generate_gallery(gallery['category_name'], gallery['with_usage'], gallery['flattening'])
         gallery['HTML'] = generated[0]
         gallery['WIKI'] = generated[1]
     else:
