@@ -141,7 +141,7 @@ def subcategories(category_name, flattening=False):
         return [category for category in page.Category(COMMONS, category_name).subcategories()]
 
 
-def generate_gallery(category_name, with_usage, flattening=False):
+def generate_gallery(category_name, with_usage=True, flattening=False):
     HTML_gallery = ""
     WIKI_gallery = "<gallery mode=\"packed\">"
     categories = subcategories(category_name, flattening)
