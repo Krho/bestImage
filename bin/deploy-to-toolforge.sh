@@ -17,4 +17,6 @@ echo "Updating dependencies..."
 echo "Deploy done."
 echo "Please update the Server Admin Log via IRC:"
 echo "https://webchat.freenode.net/?channels=#wikimedia-labs"
+
+webservice restart
 ENDSSH

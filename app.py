@@ -162,7 +162,7 @@ def index():
     return render_template('view_index.html')
 
 
-@app.route('/visualcategories/gallery', methods=['GET', 'POST'])
+@app.route('/gallery', methods=['GET', 'POST'])
 def gallery():
     gallery = {'category_name': '', 'code_generated': '', 'with_usage': False}
     if request.method == 'POST':
@@ -180,7 +180,7 @@ def gallery():
     return render_template('view_gallery.html', **gallery)
 
 
-@app.route('/visualcategories/image', methods=['GET', 'POST'])
+@app.route('/image', methods=['GET', 'POST'])
 def image():
     gallery = {'category_name': '', 'code_generated': '', 'with_usage': False}
     if request.method == 'POST':
