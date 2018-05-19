@@ -32,12 +32,22 @@ GLOBALUSAGE_URL = u"https://commons.wikimedia.org/w/api.php?action=query&prop=gl
 
 IMAGES = json.loads(open("images.json").read())
 
+g = {}
+CURRENT_GALLERY = ""
+CURRENT_CATEGORY = ""
+TEST_NAME = "User:Léna/Visual"
 
 def number_of_usages(image):
-    dict = requests.get(GLOBALUSAGE_URL + image.title()).json()["query"]["pages"]
-    page_id = requests.get(GLOBALUSAGE_URL + image.title()).json()["query"]["pages"].keys()[0]
-    return len(dict[page_id]["globalusage"])
-
+    r = requests.get(GLOBALUSAGE_URL + image.title()).json()
+    if ("query" in r and "pages" in r["query"]):
+        dict = r["query"]["pages"]
+        keys = [k for k in dict]
+        if "globalusage" in dict[keys[0]]:
+            return len(dict[keys[0]]["globalusage"])
+        else:
+            return 0
+    else:
+        return 0
 
 def compute_criteria(image, with_usage):
     # Init
@@ -154,8 +164,15 @@ def generate_gallery(category_name, with_usage=True, flattening=False):
             HTML_gallery = HTML_gallery + "<img src=\"" + code["Image"] + "\" height=\"" + str(IMAGE_HEIGHT) + "\">"
             WIKI_gallery = WIKI_gallery + "\n" + code["Title"] + "|[[:" + category.title() + "|" + category.title()[9:] + "]]"
     WIKI_gallery = WIKI_gallery + "\n</gallery>"
+    CURRENT_GALLERY = WIKI_gallery
+    CURRENT_CATEGORY = category_name
     return [Markup(HTML_gallery), WIKI_gallery]
 
+def upload(g):
+    print("upload")
+    print(g["WIKI"])
+    p = page.Page(COMMONS, TEST_NAME)
+    p.put(g["WIKI"]+p.text)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -164,25 +181,26 @@ def index():
 
 @app.route('/gallery', methods=['GET', 'POST'])
 def gallery():
-    gallery = {'category_name': '', 'code_generated': '', 'with_usage': False}
+    g = {'category_name': '', 'code_generated': '', 'with_usage': True}
     if request.method == 'POST':
-        gallery['category_name'] = request.form['category']
-        gallery['with_usage'] = "with_usage" in request.form
-        gallery['flattening'] = "flattening" in request.form
-        generated = generate_gallery(gallery['category_name'], gallery['with_usage'], gallery['flattening'])
-        gallery['HTML'] = generated[0]
-        gallery['WIKI'] = generated[1]
+        g['category_name'] = request.form['category']
+        g['with_usage'] = "with_usage" in request.form
+        g['flattening'] = "flattening" in request.form
+        generated = generate_gallery(g['category_name'], g['with_usage'], g['flattening'])
+        g['HTML'] = generated[0]
+        g['WIKI'] = generated[1]
+        if "upload" in request.form:
+            upload(g)
     else:
         # GET
         pass
-    return render_template('view_gallery.html', **gallery)
+    return render_template('view_gallery.html', **g)
 
 
 @app.route('/image', methods=['GET', 'POST'])
 def image():
-    gallery = {'category_name': '', 'code_generated': '', 'with_usage': False}
+    gallery = {'category_name': '', 'code_generated': '', 'with_usage': True}
     if request.method == 'POST':
-        # POST method
         gallery['category_name'] = request.form['category']
         gallery['with_usage'] = "with_usage" in request.form
         generated = generated_code(gallery['category_name'], gallery['with_usage'])
@@ -193,6 +211,7 @@ def image():
     else:
         # GET
         pass
+    print("render_template")
     return render_template('view_image.html', **gallery)
 
 

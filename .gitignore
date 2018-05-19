@@ -1,6 +1,9 @@
 /apicache
+/.idea
+/apicache-py3
 throttle.ctrl
 test.py
 user-config.py
 *.pyc
 *.txt
+pywikibot.lwp
